@@ -12,13 +12,13 @@ export class User extends BaseEntity{
 
     @Column({
         type: "varchar",
-        length: 100
+        length: 200
     })
     photo: String
 
     @Column({
         type: "varchar",
-        length: 100
+        length: 200
     })
     email: String
     
